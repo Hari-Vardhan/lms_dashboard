@@ -1,7 +1,6 @@
 import { Box, Stack } from "@mui/material"
 import SideBar from "./components/SideBar"
 import Feed from "./components/Feed"
-import Rightbar from "./components/Rightbar"
 import Navbar from "./components/Navbar"
 
 function App() {
@@ -11,10 +10,10 @@ function App() {
     <>
      <Box>
       <Navbar/>
-      <Stack direction="row" spacing={2} justifyContent="space-between">
+      <Stack direction="row" spacing={1} justifyContent="space-between">
         <SideBar/>
         <Feed/>              
-        <Rightbar/>
+        {/* <Rightbar/> */}
       </Stack>
      </Box>
     </>
